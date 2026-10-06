@@ -1,1 +1,1 @@
-## End to End machine learning project following Krish ##Naik tutorial 
+## End to End machine learning project following Krish Naik tutorial 
