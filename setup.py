@@ -18,11 +18,13 @@ def get_requirements(file_path:str)->List[str]:
         
         # to remove the -e . from the requirements list if it exists
         # this is because -e . is used to connect setup.py to the requirements.txt file and is not needed in the requirements list 
-        # everytime -e . is encountered setup will run
+        # if we type in terminal "pip install -r requirements.txt" and -e . is encountered setup will run
+        # and will build the package and we'll get a new folder called proj_name.egg-info
+        
 
         if HYPHEN_E_DOT in requirements:
             requirements.remove(HYPHEN_E_DOT)
-    
+        print(f"requirements: {requirements}")
     return requirements
 setup(
     name='ml_project_01',
