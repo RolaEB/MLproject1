@@ -1,4 +1,10 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e .
+#we commented the above line so not to build the package automatically 
+#every time we install the requirements while we are still in development mode.
