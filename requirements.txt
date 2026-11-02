@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 #-e .
 #we commented the above line so not to build the package automatically 
 #every time we install the requirements while we are still in development mode.
